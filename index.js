@@ -9,7 +9,3 @@ btn.onclick = function () {
     pic.style.display = "block";
     audio.play();
 }
-
-tite.onclick = function (){
-    dis.style.display = "block";
-}
