@@ -74,3 +74,8 @@ p{
     margin-right: auto;
     width: 70%;
 }
+
+.white{
+    width: 100%;
+    display: none;
+}
