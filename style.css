@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(13, 27, 42);
+}
+
+p{
+    font-family: Roboto, Arial;
+}
+
+.label{
+    display: block;
+    width: 80%;
+    font-size: 5vw;
+    font-weight: bold;
+    color: rgb(224, 225, 221);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.enter{
+    display: block;
+    margin: auto;
+    padding: 10px 25px;
+    font-family: Roboto;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-color: rgb(119, 141, 169);
+    color: rgb(224, 225, 221);
+    border: none;
+    border-radius: 2px;
+}
+
+.enter:hover{
+    cursor: pointer;
+    padding: 9px 24px;
+    border: solid;
+    border-color: rgb(13, 27, 42);
+    border-width: 1px;
+    color: rgb(13, 27, 42);
+    background-color: rgb(224, 225, 221);
+    border-radius: 2px;
+}
+
+.enter:active{
+    background-color: rgb(119, 141, 169);
+}
+
+.home{
+    background-color: rgb(27, 38, 59);
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 4px;
+    display: block;
+}
+
+.picture{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    animation: fade 3s;
+}
+
+@keyframes fade {
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
+
+.boy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
